@@ -8,7 +8,7 @@ turns Vim into a convenient PHP-oriented IDE.
 
 This is just an example of how Vim can be configured, according to the typical
 needs of the backend developer writing in PHP. It's a starting point to discover
-how VIM can be configured to implement a number IDE-specific features.
+how to tweak VIM to make it privide a number of IDE-specific features.
 
 Assumed, that you allready have some basic experience with Vim. If you are new
 to Vim pay attention to [Vim Novice](http://derekwyatt.org/vim/tutorials/novice/)
