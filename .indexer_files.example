@@ -1,0 +1,4 @@
+[foobar]
+
+/home/vinter/Projects/foobar
+option:ctags_params = "--languages=php --totals=yes --tag-relative=yes --php-kinds=+ctf --regex-php='/^[\t\s]?abstract class ([^ ]*)/\1/c/i' --regex-php='/^[\t\s]?interface ([^ ]*)/\1/c/i' --regex-php='/^[\t\s]*trait[ \t]+([a-z0_9_]+)/\1/t/i' --regex-php='/^[\t\s]?(public|static|abstract|protected|private)+[\s\t]?function +([^ \(]*)/\3/f/i' --exclude=vendor/* --exclude=node_modules --exclude=_ide_helper.php --exclude=storage/* --exclude=compiled.php --exclude=log --exclude=.build --exclude=.project --exclude=.idea/* --exclude=.settings/* --exclude=*.js --exclude=*.css --exclude=.git --exclude=.svn --exclude=.hg "

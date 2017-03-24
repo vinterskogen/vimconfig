@@ -1,0 +1,4 @@
+" Default projects folder
+call project#rc("~/Projects")
+
+Project  'foobar'
