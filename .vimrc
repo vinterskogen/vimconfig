@@ -52,6 +52,12 @@ Plugin 'tpope/vim-fugitive'		" Add files, commit, pull and push to Git from Vim
 Plugin 'xuyuanp/nerdtree-git-plugin'	" Displays Git status for files in NERDTree
 Plugin 'airblade/vim-gitgutter'		" Shows a git diff in the gutter (sign column) and stages/undoes hunks
 
+" Laravel
+Plugin 'tpope/vim-dispatch'
+Plugin 'tpope/vim-projectionist'
+Plugin 'noahfrederick/vim-composer'
+Plugin 'noahfrederick/vim-laravel'
+
 " Misc
 Plugin 'editorconfig/editorconfig-vim'	" Support for EditorConfig
 Plugin 'flazz/vim-colorschemes'		" Tons of nicest colorschemes
