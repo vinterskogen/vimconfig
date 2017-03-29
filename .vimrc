@@ -37,6 +37,7 @@ Plugin 'mhinz/vim-grepper'		" Helps you win at grep
 Plugin 'sirver/ultisnips'		" The ultimate snippet solution for Vim
 Plugin 'honza/vim-snippets'		" Repository of snippets for `sirver/ultisnips`
 Plugin 'jiangmiao/auto-pairs'		" Inserts autopairs for quotes and brackets
+Plugin 'tpope/vim-surround'		" All about 'surroundings': parentheses, brackets, quotes, XML tags, and more
 
 " PHP
 Plugin 'arnaud-lb/vim-php-namespace'	" Types 'use' statements for you
