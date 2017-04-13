@@ -12,8 +12,8 @@ how to tweak VIM to make it privide a number of IDE-specific features.
 
 Assumed, that you allready have some basic experience with Vim. If you are new
 to Vim pay attention to [Vim Novice](http://derekwyatt.org/vim/tutorials/novice/)
-series by Derek Wyatt, in which a bunch of essential basics of Vim is extremely
-good explained.
+series by Derek Wyatt. The most essential basics of Vim are extremely good 
+explaines in this screencast series.
 
 
 ## Installation
