@@ -41,9 +41,9 @@ To try this configuration by your own follow the instructions:
 
 4. Run GUI version of Vim
 
-  - GUI version of Vim depends on the OS you use (check if you have that installed):
-    - [GVim](https://apps.ubuntu.com/cat/applications/precise/vim-gnome/) for Linux
-    - [MacVim](http://macvim-dev.github.io/macvim/) for MacOS
+  - GUI version of Vim depends on the OS you use. It is known as [GVim](https://apps.ubuntu.com/cat/applications/precise/vim-gnome/)
+for Linux and [MacVim](http://macvim-dev.github.io/macvim/) for MacOS. Check if
+you have that intalled.
 
 
 ## Plugins
