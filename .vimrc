@@ -178,6 +178,9 @@ set preserveindent
 " Just take a look! - https://github.com/morhetz/gruvbox
 colorscheme gruvbox
 
+" Be more strict looking
+let g:gruvbox_italic=0
+
 " Some more tweaks
 set bg=dark
 hi NonText guifg=bg
