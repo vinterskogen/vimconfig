@@ -12,8 +12,8 @@ how to tweak VIM to make it privide a number of IDE-specific features.
 
 Assumed, that you allready have some basic experience with Vim. If you are new
 to Vim pay attention to [Vim Novice](http://derekwyatt.org/vim/tutorials/novice/)
-series by Derek Wyatt, in which a bunch of essential basics of Vim is extremely
-good explained.
+series by Derek Wyatt. The most essential basics of Vim are extremely good 
+explaines in this screencast series.
 
 
 ## Installation
@@ -32,15 +32,18 @@ To try this configuration by your own follow the instructions:
 2. Setup the Vundel - Vim's plugin manager
 
   - install it by cloning: `git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/vundle.vim`
-  - run Vim to install all the plugins listed in `.vimrc` with command: `vim +PluginInstall +qall`
-  - wait a few minutes for the plugins are downloaded
+  - run Vim to install all the plugins listed in `.vimrc` with command your terminal: `vim +PluginInstall +qall`
+  - wait a few minutes for the plugins are downloaded and installed
 
 3. Run Vim 
 
-  - just type `vim` in shell and all good to go
-  - running GUI version of Vim depends on your OS. Vim's GUI version is known as
-"gVim" for Linux and "MacVim" for MacOS, if you have that intalled (if not -
-google for that with the keyword `vim-gtk` or `macvim` accordingly)
+  - just type `vim` in your terminal
+
+4. Run GUI version of Vim
+
+  - GUI version of Vim depends on the OS you use. It is known as [GVim](https://apps.ubuntu.com/cat/applications/precise/vim-gnome/)
+for Linux and [MacVim](http://macvim-dev.github.io/macvim/) for MacOS. Check if
+you have that intalled.
 
 
 ## Plugins
