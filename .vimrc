@@ -172,8 +172,7 @@ set preserveindent
 " - https://github.com/flazz/vim-colorschemes
 "
 
-" Gruvbox is my colorscheme of choice, because it is the shit.
-" Just take a look! - https://github.com/morhetz/gruvbox
+" Selected colorscheme
 colorscheme amcolors
 
 " Some more tweaks
