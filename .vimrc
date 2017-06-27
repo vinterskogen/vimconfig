@@ -140,7 +140,7 @@ set noshowmode				" Disable statusline at the bottom (by reason of Airline plugi
 set cursorline				" Highlight the line under the cursor
 set number				" Enable showing line numbers
 set scrolloff=5				" Set the number of lines from top or bottom, to start scroll
-set linespace=5				" Increase the space between lines
+set linespace=6				" Increase the space between lines
 
 " Add a 80 chars border highlight
 let &colorcolumn=join(range(81,999),",")
@@ -173,7 +173,10 @@ set preserveindent
 "
 
 " Selected colorscheme
-colorscheme amcolors
+
+" Gruvbox is my colorscheme of choice, because it is the shit.
+" Just take a look! - https://github.com/morhetz/gruvbox
+colorscheme gruvbox
 
 " Some more tweaks
 set bg=dark
@@ -198,6 +201,10 @@ map <F8> :w!<cr>
 
 " Close buffer by F4
 map <F4> :BD<cr>
+
+" Switch to next/previous buffers by <Alt+h> and <Alt+l>
+nnoremap <M-l> :bnext<CR>
+nnoremap <M-h> :bprevious<CR>
 
 " Escape to noraml mode by double `j`
 imap jj <Esc>
@@ -237,9 +244,7 @@ let g:airline_powerline_fonts = 1
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#fnamemod = ':t'
 let g:airline_left_sep = ''
-let g:airline_right_sep = ''
-let g:airline_left_alt_sep = '│'
-let g:airline_right_alt_sep = '│'
+let g:airline_left_alt_sep = ''
 let g:airline_theme = 'dark'
 
 
@@ -259,8 +264,8 @@ set rtp+=~/.vim/bundle/vim-project/
 " ---------------------------------------------------------------------------- "
 "
 let g:NERDTreeWinPos = "left"
-let g:NERDTreeWinSize = 32
-let g:tagbar_width = 32
+let g:NERDTreeWinSize = 30
+let g:tagbar_width = 30
 let g:nerdtree_tabs_smart_startup_focus=2
 let g:nerdtree_tabs_open_on_console_startup=1
 let g:nerdtree_tabs_open_on_gui_startup=1
