@@ -53,9 +53,12 @@ Plugin 'tpope/vim-fugitive'		" Add files, commit, pull and push to Git from Vim
 Plugin 'xuyuanp/nerdtree-git-plugin'	" Displays Git status for files in NERDTree
 Plugin 'airblade/vim-gitgutter'		" Shows a git diff in the gutter (sign column) and stages/undoes hunks
 
+" Color themes
+Plugin 'muellan/am-colors'		" Amcolors theme
+Plugin 'flazz/vim-colorschemes'         " Tons of nicest colorschemes
+
 " Misc
 Plugin 'editorconfig/editorconfig-vim'	" Support for EditorConfig
-Plugin 'flazz/vim-colorschemes'		" Tons of nicest colorschemes
 Plugin 'tomtom/tlib_vim'		" Some utility functions for Vim
 
 "
@@ -171,11 +174,7 @@ set preserveindent
 
 " Gruvbox is my colorscheme of choice, because it is the shit.
 " Just take a look! - https://github.com/morhetz/gruvbox
-colorscheme gruvbox
-
-" Be more strict looking
-let g:gruvbox_italic=0
-let g:gruvbox_contrast_dark="hard"
+colorscheme amcolors
 
 " Some more tweaks
 set bg=dark
@@ -297,10 +296,11 @@ let g:NERDTreeIndicatorMapCustom = {
 "
 "
 
-nmap <Leader><C-t> :TagbarToggle<CR>
-
 " Open Tagbar while entering source files
-autocmd FileType php,python,ruby,js autocmd BufEnter <buffer> :TagbarOpen<cr>
+autocmd FileType php,python,ruby,js nested :TagbarOpen
+
+" Open Tagbar with Leader key followed by Ctrl+t
+nmap <Leader><C-t> :TagbarToggle<CR>
 
 " PHP options
 let g:tagbar_type_php  = {
@@ -313,6 +313,8 @@ let g:tagbar_type_php  = {
   \ ]
 \ }
 
+" Visual settings
+let g:tagbar_iconchars = ['▸', '▾'] 
 
 
 "
@@ -440,8 +442,8 @@ set statusline+=%*
 " PHP Documentator plugin option
 " ---------------------------------------------------------------------------- "
 "
-let g:pdv_template_dir = $HOME ."/.vim/bundle/pdv/templates_snip"
-nnoremap <buffer> <leader><c-u> :call pdv#DocumentWithSnip()<CR>
+let g:pdv_template_dir = $HOME."/.vim/bundle/pdv/templates_snip"
+nnoremap <buffer> <leader><c-d> :call pdv#DocumentWithSnip()<CR>
 
 
 
