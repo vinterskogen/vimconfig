@@ -206,8 +206,8 @@ map <F8> :w!<cr>
 map <F4> :BD<cr>
 
 " Switch to next/previous buffers by <Alt+h> and <Alt+l>
-nnoremap <M-l> :bnext<CR>
-nnoremap <M-h> :bprevious<CR>
+nnoremap <silent> <M-l> :bnext<CR>
+nnoremap <silent> <M-h> :bprevious<CR>
 
 " Escape to noraml mode by double `j`
 imap jj <Esc>
