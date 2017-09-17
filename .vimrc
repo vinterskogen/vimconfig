@@ -44,6 +44,7 @@ Plugin 'arnaud-lb/vim-php-namespace'	" Types 'use' statements for you
 Plugin 'alvan/vim-php-manual'		" Read PHP documentation in Vim
 Plugin 'tobys/pdv'			" Generates docblocks
 Plugin 'tobys/vmustache'		" Mustache template system for VIMScript (required by `tobys/pdv`)
+Plugin 'adoy/vim-php-refactoring-toolbox' " PHP refactoring toolbox
 
 " JS
 Plugin 'kchmck/vim-coffee-script'	" CoffeeScript support
