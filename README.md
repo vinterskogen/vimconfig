@@ -1,6 +1,6 @@
 # Vim configuration set for PHP backend development
 
-<p align="center"><a href="https://github.com/vinterskogen/vimconfig" target="_blank"><img src="https://user-images.githubusercontent.com/8015372/33406576-a671cb5c-d57e-11e7-8f32-ab2731217bdd.png"></a></p>
+<p align="center"><a href="https://github.com/vinterskogen/vimconfig" target="_blank"><img src="https://user-images.githubusercontent.com/8015372/33406637-ef1d5876-d57e-11e7-811a-7356fb9310bd.png"></a></p>
 
 ## Introduction
 
