@@ -38,13 +38,10 @@ To try this configuration by your own follow the instructions:
 
 3. Run Vim 
 
-  - just type `vim` in your terminal
-
-4. Run GUI version of Vim
-
-  - GUI version of Vim depends on the OS you use. It is known as [GVim](https://apps.ubuntu.com/cat/applications/precise/vim-gnome/)
-for Linux and [MacVim](http://macvim-dev.github.io/macvim/) for MacOS. Check if
-you have that intalled.
+  - just type `vim` in your terminal 
+  - ...or run GUI version of Vim - it is known as [GVim](https://apps.ubuntu.com/cat/applications/precise/vim-gnome/)
+on Linux and [MacVim](http://macvim-dev.github.io/macvim/) on Mac. Check if you
+have that intalled.
 
 
 ## Plugins
