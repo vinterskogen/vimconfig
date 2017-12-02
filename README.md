@@ -31,7 +31,7 @@ To try this configuration by your own follow the instructions:
   - clone this repo: `git clone https://github.com/vinterskogen/vimconfig.git ~/vimconfig`
   - symlink the `vimrc` file to your home directiory: `ln -s ~/vimconfig/vimrc ~/.vimrc`
 
-2. Setup the Vundel (Vim's plugin manager):
+2. Setup Vundel (Vim's plugin manager):
 
   - install it by cloning: `git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/vundle.vim`
   - install all the plugins listed in `.vimrc` with command: `vim +PluginInstall +qall`
