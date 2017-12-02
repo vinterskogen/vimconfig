@@ -18,6 +18,7 @@ Plugin 'vim-scripts/indexer.tar.gz'	" Painless transparent async tags file gener
 Plugin 'vim-scripts/vimprj'		" Manage project-specific options
 Plugin 'vim-scripts/dfrankutil'		" Scripts library (required by `indexer` and `vimprj`)
 Plugin 'qpkorr/vim-bufkill'		" Delete file from the buffer and keep the window intact
+Plugin 'konfekt/vim-alias'		" Add custom aliases for Vim's commands
 
 " Interface
 Plugin 'amiorin/vim-project'		" Select project on Vim startup
@@ -82,8 +83,8 @@ set autowrite				" Enable autosave when, switching to an other buffer
 set binary				" Assume all the files as binary
 set noeol				" No <EOL> will be written for the last line in the file
 set shortmess+=I			" Get rid of Vim's defailt intro message
-set hidden				" TODO
-set confirm				" TODO
+set hidden
+set confirm
 
 " The length of time Vim waits after you stop typing
 set updatetime=250
@@ -107,6 +108,7 @@ set wildignore+=*/.git/*,*/.hg/*,*/.svn/*,*/.idea/*,*/.DS_Store,*/cache/*,vendor
 " A good place to play with new options before placing them into proper section
 "
 "
+
 
 
 
@@ -350,7 +352,7 @@ let g:ctrlp_match_window = 'bottom,order:btt,min:1,max:30,results:15'
 "
 
 " Where the list of the your projects lives
-let g:indexer_indexerListFilename="~/.vim/indexer/indexer_files"
+let g:indexer_indexerListFilename="~/.indexer_files"
 
 " Disable warnings (if any)
 let g:indexer_disableCtagsWarning = 1
@@ -463,6 +465,34 @@ nnoremap <buffer> <leader><c-d> :call pdv#DocumentWithSnip()<CR>
 "
 nmap ]c <Plug>GitGutterNextHunk
 nmap [c <Plug>GitGutterPrevHunk
+
+
+
+"
+" Vim-fugitive plugin options
+" ---------------------------------------------------------------------------- "
+"
+
+" Save and add file to staged
+map <F9> :Gwrite<CR>
+
+
+
+"
+" Vim-alias plugin options
+" ---------------------------------------------------------------------------- "
+"
+
+" Load aliases from external file
+if exists('s:loaded_vimafter')
+    silent doautocmd VimAfter VimEnter *
+else
+    let s:loaded_vimafter = 1
+    augroup VimAfter
+        autocmd!
+        autocmd VimEnter * source ~/vimconfig/plugin-config/vim-alias/aliases.vim
+    augroup END
+endif
 
 
 
