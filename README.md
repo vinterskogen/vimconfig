@@ -13,9 +13,8 @@ needs of the backend developer writing in PHP. It's a starting point to discover
 how to tweak VIM to make it privide a number of IDE-specific features.
 
 Assumed, that you allready have some basic experience with Vim. Otherwise first
-pay attention to [Vim Novice](http://derekwyatt.org/vim/tutorials/novice/)
-series by Derek Wyatt, who explaines the most essential basics of Vim in
-extremely clear manner.
+pay attention to [Vim Novice series](http://derekwyatt.org/vim/tutorials/novice/)
+by Derek Wyatt, who explains all Vim's stuff in extremely clear manner.
 
 
 ## Installation
