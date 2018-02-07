@@ -46,4 +46,4 @@ have that intalled.
 
 ## Credit
 
-Vinter Skogen, 2014 - 2017
+Vinter Skogen, 2014-2018
