@@ -56,8 +56,8 @@ Plugin 'xuyuanp/nerdtree-git-plugin'	" Displays Git status for files in NERDTree
 Plugin 'airblade/vim-gitgutter'		" Shows a git diff in the gutter (sign column) and stages/undoes hunks
 
 " Color themes
-Plugin 'muellan/am-colors'		" Amcolors theme
 Plugin 'flazz/vim-colorschemes'         " Tons of nicest colorschemes
+Plugin 'rainglow/vim'			" Rainglow colorschemes
 
 " Misc
 Plugin 'editorconfig/editorconfig-vim'	" Support for EditorConfig
